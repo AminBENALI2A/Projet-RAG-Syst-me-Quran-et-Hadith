@@ -1,0 +1,6 @@
+Pour tester l'application:
+-upload le fichier serveur colab en colab.
+-upload les deux fichiers json-hadit.json et quran.json en colab.
+-éxécutez le serveur du colab avec environnement GPU (en supposant que mes tokens sont valables ).
+-la dernière cellule va générer un lien, copie le lien et collez le dans le fichier query_VS.py en ajoutant \query à la fin.
+-executer la commande <<streamlit run streamlit_app.py >> dans le dossier ou les deux script python existent sur votre machine.(aprés l'installation des librairies necessaires : pip install requests streamlit) 
